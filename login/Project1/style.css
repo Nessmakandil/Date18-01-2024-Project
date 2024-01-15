@@ -1,0 +1,116 @@
+html{
+    scroll-behavior: smooth;
+    transition: all 1s;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #F8FAF2;
+    font-size: large;
+    user-select: none;
+}
+.reg{
+    position: absolute;
+    top: 15vh;
+    left:35vw;
+    background: #49969634;
+    width: 30vw;
+    height: 70vh;
+    border-radius: 10px;
+    color:#1d0341;
+    border:1px solid;
+    box-shadow: 1px 1px 10px  #000;
+}
+.reg form .txt{
+    display: block;
+    margin: 10px 0;
+    width:80%;
+    height:3vh;
+    outline:none;
+    border: none;
+    border-radius: 4px ;
+    box-shadow: 2px 2px 5px #000;
+}
+.reg form .txt:active{
+    background-color: #1d0341;
+}
+.reg form {
+    width: 100% ;
+    margin: 15% 0 0 10%;
+
+}
+.image{
+    position: absolute;
+    top: 27vh;
+    left:42vw;
+    width: 30vw;
+    height: 70vh;
+    border-radius: 10px;
+}
+.image img{
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 2px 2px 10px #49969634;
+    
+}
+.reg form a{
+    text-decoration: none;
+    color:#4644ec;
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+    margin-right: 2vw;
+}
+.reg form a:active{
+    color:#d9dae7 ;
+}
+
+.reg form .btns{
+    width: 80%;
+    margin: 2vh;
+
+}
+.reg form .btns .btn{
+    width: 7vw;
+    height:4vh;
+    border: none;
+    outline: none;
+    background:#1d0341;
+    color:#fff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 3vh 0;
+    transition: all .5s;
+}
+
+.reg form .btns .btn:hover{
+    background-color: #F8FAF2;
+    color:#000;
+}
+.reg form .btns .btn:last-of-type{
+     margin-left: 8vw;
+}
+.reg form select{
+    width: 67%;
+    height:3.2vh;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    text-align: center ;
+    letter-spacing: 3px;
+    font:bold;
+    margin:4vh 0 0 .7vw  ;
+    box-shadow: 2px 2px 10px #000;
+    transition: all .5s;
+    cursor: pointer;
+}
+.reg h1{
+    text-align: center;
+    margin-top: 5vh;
+}
+.reg form label:last-child{
+    display: block;
+}
