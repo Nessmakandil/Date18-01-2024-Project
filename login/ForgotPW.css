@@ -1,0 +1,53 @@
+div {
+    background-color: rgba(156, 176, 255, 0.592);
+    width:55vh;
+    height:50vh;
+    margin-top:10%;
+    margin-left:37.5%;
+
+    border-style: groove;
+    border-radius: 4px ;
+    
+
+  }
+
+h2 {
+    color:rgb(37, 35, 177);
+    margin-left:25%;
+    padding-top: 3.5%;
+}
+
+form {
+    
+    margin-left:25%;
+    
+   
+}
+
+
+button:hover {
+    opacity: 0.8;
+  }
+.txt .save{
+    background-color:rgb(37, 35, 177);
+    color:rgb(232, 232, 241);
+    border-radius: 3px ;
+}
+.txt .reset{
+    background-color:rgb(37, 35, 177);
+    color:rgb(232, 232, 241);
+    
+    border-radius: 3px ;
+}
+.txt .back{
+    background-color:rgb(37, 35, 177);
+    color:rgb(232, 232, 241);
+    margin-left:5%;
+    
+    border-radius: 3px ;
+}
+
+.txt .txt{
+    border: none;
+    border-radius: 5px ;
+}
