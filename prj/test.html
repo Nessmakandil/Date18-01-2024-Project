@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="fontawesome-free-6.5.1-web/css/all.css">
+        <link rel="stylesheet" href="test.css"/>
+        <script>
+          function subscribe() {
+            if (document.getElementById("mail").value == "") {
+              alert("please enter your E-mail!");
+            }
+          }
+        //   function applyToCourses() {
+        //     var mail = prompt("Enter your E-mail to get your application");
+        //   }
+          function openForm() {
+            document.getElementById("myForm").style.display = "block";
+            }
+
+            function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+            }
+        </script>
+    </head>
+    <body style="background-color:white;">
+        <div class="header">
+            <div class="siteName">
+                _SchoolOnline
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Home</a>
+                    <a href="#">Profile</a>
+                    <a href="#">Admission</a>
+                    <a href="#">Alumni</a>
+                    <a href="#">Staff</a>
+                    <a href="#">Gallery</a>
+                    <a href="#">Courses</a>
+                    <a href="#">Events</a>
+                    <a href="#">About us</a>
+                    <a href="#">Contact us</a>
+                    <p></p>
+                    <a href="#">log out</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="sub-section-00">
+            <h2>Our Courses</h2>
+
+            <a class="courses English" href="courses.html">
+                <img src="girl-taking-english-test.jpg" alt="">
+                <p>Get your ILETS Certificate from the first time</p>
+            </a>
+            <a class="courses Drawing" href="courses.html">
+                <img src="girl-drawing.jpg" alt="">
+                <p>Learn professional hand drawing</p>
+            </a>
+            <a class="courses ICDL" href="courses.html">
+                <img src="MAN-TAKING-ICDL-EXAM.jpg" alt="">
+                <p>Get your professional ICDL Certificate from the first time</p>
+            </a>
+        </div>
+
+        <div class="sub-section-01">
+            <h2>Out Tracks</h2>
+
+            <div class="tracks">
+
+                <a  href="tracks.html">
+                    <img src="tracks-education.jpg" alt="">
+                    <p>Faculty of Education</p>
+                </a>
+                
+            </div>
+            
+            <a class="tracks" href="tracks.html">
+                <img src="tracks-law.jpg" alt="">
+                <p>Faculty of Law</p>
+            </a>
+            <a class="tracks" href="tracks.html">
+                <img src="tracks-medicine.jpg" alt="">
+                <p>Faculty of Medicine</p>
+            </a>
+            <a class="tracks" href="tracks.html">
+                <img src="tracks-engineering.jpg" alt="">
+                <p>Faculty of Engineering</p>
+            </a>
+            <a class="tracks" href="tracks.html">
+                <img src="tracks-IT.jpg" alt="">
+                <p>Faculty of Information Technology</p>
+            </a>
+            
+        </div>
+        <button class="apply" type="button" onclick="openForm()"><a href="#">Apply Now</a></button>
+
+        <div class="footer-section">
+            <div class="footer">
+                <h2>Our Campus</h2>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Block 3 Al-Mansour Street, Cairo, Egypt.</p>
+                        
+                    </div>
+            <div class="footer">
+                <h2>Featured Links</h2>
+                        <a href="#">
+                            Graduation</a> <br/>
+                    
+                        <a href="#">
+                            Admission</a> <br/>
+                    
+                        <a href="#">
+                            Courses</a> <br/>
+                    
+                        <a href="#">
+                            International</a> <br/>
+                    
+                        <a href="#">
+                            Graduation</a> <br/>
+                    
+                        <a href="#">
+                            Admission</a> <br/>
+                    
+                        <a href="#">
+                            Courses</a> <br/>
+                    
+                        <a href="#">
+                            International</a> <br/>
+                    
+            </div>
+            <div class="footer">
+                <h2>Contact Info</h2>
+                        <i class="fa fa-envelope e-mail"></i><a href="#">&nbsp E-MAIL: info@onlineschool.com</a> <br/>
+                        <i class="fa fa-fax phone"></i><a href="#">&nbsp CONTACT NO.: +91 -123 4567890</a> <br/>
+                        <i class="fa fa-globe website"></i><a href="#">&nbsp WEBSITE</a> <br/>
+                    
+                <a  class="social-contact" href="#">
+                  <i class="fa-brands fa-twitter"></i> &nbsp
+              </a> 
+        
+              <a class="social-contact" href="##">
+                  <i class="fa-brands fa-whatsapp"></i> &nbsp
+              </a>
+          
+              <a  class="social-contact" href="#">
+                  <i class="fa-brands fa-facebook"></i> &nbsp
+              </a>
+      
+              <a  class="link" href="#">
+                  <i class="fa-brands fa-linkedin"></i> &nbsp
+              </a>
+            </div>
+            
+            <div class="form-popup" id="myForm">
+                <form class="form-container">
+                  <h1>Login</h1>
+              
+                  <label for="email"><b>Email</b></label>
+                  <input type="text" placeholder="Enter Email" name="email" required>
+              
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" required>
+              
+                  <button type="submit" class="btn">Login</button>
+                  <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                </form>
+              </div>
+              
+            <div class="footer">
+                <h2>Newsletter</h2>
+                <p style="text-align: left;">Welcome To The Best Private University</p>
+                <input id="mail" type="text" name="" placeholder="E-mail">
+                <button class="subscribe" onclick="subscribe()">Subscribe Now</button>
+            </div>
+        </div>
+    </body>
+</html>
