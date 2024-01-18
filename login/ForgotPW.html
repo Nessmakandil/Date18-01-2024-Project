@@ -6,25 +6,24 @@
 </head>
 
 <body>
-    <div class="txt">
+    <div class="cont">
       <h2>Forgot Password?</h2>
         <form >
-            <br><label for="email">Email:</label><br>
-            <input class="txt" type="email" placeholder="Enter Email" id="email" required><br><br>
-            <label for="newpw">New Password:</label><br>
-            <input class="txt" type="password" placeholder="Enter Password" id="newpw" required><br><br>
-            <label for="confpw">Confirm Password:</label><br>
-            <input class="txt" type="password" placeholder="Enter Password" id="confpw" required><br><br>
-            <button class="save" type="submit">Save</button><br>
-            <!--<input type="submit" onclick="window.alert('New Pasword Set')">Save</button><br>-->
-            <br><button class="reset" type="reset">Reset</button>
-            <button class="back" type="button" onclick="window.location.href='login.html'">Back</button>
-        
-        </form>
-    </div>
+            <label for="email">Email:</label>
+            <input class="txt" type="email" placeholder="Enter Email" id="email" required>
+            <!--<label for="newpw">New Password:</label>
+            <input class="txt" type="password" placeholder="Enter Password" id="newpw" required>
+            <label for="confpw">Confirm Password:</label>
+            <input class="txt" type="password" placeholder="Enter Password" id="confpw" required>
+            -->
             
-        
-      
+            <div class="btns">
+                <button class="btn" type="submit" onclick="window.alert('Please Check Your Mail')">Save</button>
+                <!--<input type="submit" onclick="window.alert('New Pasword Set')">Save</button><br>-->
+                <button class="btn" type="button" onclick="window.location.href='login.html'">Back</button>
+            </div>
+        </form>
+    </div>      
 
 </body>
 </html>
