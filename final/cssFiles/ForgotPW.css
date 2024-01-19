@@ -1,0 +1,78 @@
+body{
+    background-color: #F8FAF2;
+    font-size: 20px;
+    user-select: none;
+}
+
+.fwp{
+    display: none;
+}
+
+.popUp{
+    z-index: 100;
+    width: 35vw;
+    height:20vh;
+    background-color: #49969683;
+    position:absolute;
+    left: 33vw;
+    top:25vh;
+    border-radius: 7px;
+    box-shadow: 1px 1px 10px #000;
+    color:#e8dff0 ;
+    text-align: center;
+    padding: 5px;   
+}
+
+h3 {
+    color:#8d042f;
+    margin-top: 1.5vh;
+    text-align: center;
+}
+
+.popUp .btn:hover{
+    background-color: #F8FAF2;
+    color:#000;
+}
+
+.popUp .btn{
+    width: 7vw;
+    height:4vh;
+    margin-top:1.5vh;
+    border: none;
+    border-radius: 5px ;
+    outline: none;
+    background:#1d0341;
+    color:#fff;
+    box-shadow: 1px 1px 10px #8a8686; 
+}
+
+.popUp label{
+    margin-top:1.5vh;
+    border: none;
+    border-radius: 5px ;
+    outline: none;
+    color: #000;
+}
+
+.popUp .txt{
+    margin-top:1.5vh;
+    border: none;
+    border-radius: 5px ;
+    outline: none;
+    box-shadow: 1px 1px 10px#433e3e;
+    height: 3vh;
+}
+
+.popUp a{
+  text-decoration: none;
+  color: #290303; 
+  position: absolute;
+  position: absolute;
+  top: 0;
+  right: 15px;
+  font-size: 30px;        
+}
+
+.popUp a:hover{
+    color: #8d042f;
+}

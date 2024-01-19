@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forgot Password</title>
+    <link rel="stylesheet" href="cssFiles/ForgotPW.css">
+</head>
+
+<body>
+      <div class="fpw" id="popUp"> 
+          <div class="popUp" >
+            <h3>Forgot Password?</h3>
+            <a href="login.html" class="box-close">x</a>
+            <label for="email">Email:</label>
+            <input class="txt" type="email" placeholder="Enter Email" id="email" required>
+            <button class="btn" type="submit" onclick="red()">Proceed</button>
+            
+            <!--<p class="poli">Please Check Your Mail</p>
+            <button class="btn" onclick="document.getElementById('popUp').style.display='none'">I Got it! </button>-->
+          </div> 
+      </div>
+      <!-- document.getElementById('popUp').style.display='none' -->
+    <script >
+        function red(){
+            let x = document.getElementById('email');
+            if(x.value == ""){
+            window.alert("Enter A Valide mail") 
+            }else{
+                window.alert("Check your Email");
+                window.open("login.html");
+            }
+        }
+        function popUp(){
+            //popUp Appeers
+            let pop = document.getElementById("popUp");
+            pop.style.display = "block"; 
+        }
+    </script>
+   
+</body>
+</html>
