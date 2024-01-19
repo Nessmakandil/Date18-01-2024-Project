@@ -1,0 +1,58 @@
+body{
+    background-color: #F8FAF2;
+    font-size: 20px;
+    user-select: none;
+}
+.cont {
+    position: absolute;
+    top:25vh;
+    left:25vw;
+    background-color: #49969634;
+    width:50vw;
+    height:50vh;
+    border-radius: 10px ;
+    box-shadow: 1px 1px 10px #000;
+}
+h2 {
+    color:#8d042f;
+
+   text-align: center;
+}
+form {
+    position: absolute;
+    top:25%;
+    left: 25%;
+
+}
+form input{
+    display: block;
+    margin-bottom: 2vh;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+.cont .btns{
+margin-top:5vh ;
+
+
+}
+.cont form .btns .btn{
+    background-color:#1d0341;
+    color:rgb(232, 232, 241);
+    border-radius: 5px ;
+    width:5vw;
+    height:3vh;
+    margin-left:3vw;
+}
+
+
+.cont .txt{
+    border: none;
+    border-radius: 5px ;
+    outline: none;
+    width: 25vw;
+    height: 3.5vh;
+    box-shadow: 1px 1px 10px#000;
+   
+}
+

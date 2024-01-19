@@ -1,0 +1,59 @@
+.forgetpassword {
+    position: absolute;
+    top: 15vh;
+    left:35vw;
+    background: #49969634;
+    width: 26vw;
+    height: 45vh;
+    border-radius: 10px;
+    color:#1d0341;
+    border:1px solid;
+    box-shadow: 1px 1px 10px  #000
+}
+
+.forgetpassword h1{
+    color:brown;
+    text-align: center;
+    text-decoration-color: bisque;
+    text-decoration: underline;
+}
+
+.btns{
+    width: 80%;
+    margin: 2vh;
+
+}
+
+form .btns .btn{
+    width: 7vw;
+    height:4vh;
+    border: none;
+    outline: none;
+    background:#1d0341;
+    color:#fff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 3vh;
+    
+}
+
+form .btns .btn:hover{
+    background-color: #F8FAF2;
+    color:#000;
+}
+
+form .btns .btn:last-of-type{
+     margin-left: 5vw;
+}
+
+.txt{
+    display: block;
+    margin: 40px 40px 40px 40px;
+    width:80%;
+    height:3vh;
+    outline:none;
+    border: none;
+    border-radius: 4px ;
+    box-shadow: 2px 2px 10px #49969634;
+}
+
